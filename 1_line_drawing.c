@@ -4,7 +4,6 @@
 float x0,y0,x1,y1,df,dx,dy;
 void init()
 {
-
 	gluOrtho2D(0,500,0,500);
 }
 void display()
