@@ -79,7 +79,7 @@ void menu(int id)
 		flag=1;
 	if(id==2)
 		flag=2;
-	if(flag==3)
+	if(id==3)
 		exit(0);
 	display();
 }
