@@ -3,10 +3,7 @@
 #include<math.h>
 float ambient[] = {1,1,0,1};
 float light_pos[] = {2,2,2,1};
-void init()
-{
-	glOrtho(-2,2,-2,2,-2,2);
-}
+
 void align()
 {
 	glRotatef(50,0,1,0);
